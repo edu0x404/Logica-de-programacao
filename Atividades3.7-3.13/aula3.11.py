@@ -1,0 +1,5 @@
+Preço_da_mercadoria = float(input("Digite o preço da mercadoria: "))
+desconto = float(input("Digite o percentual de desconto em %: "))
+novo_preco = Preço_da_mercadoria - (Preço_da_mercadoria * desconto / 100)
+print(f"O desconto em reais é: R${Preço_da_mercadoria * desconto / 100}")
+print(f"O novo preço da mercadoria é: R${novo_preco}")
